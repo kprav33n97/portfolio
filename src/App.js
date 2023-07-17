@@ -1,11 +1,8 @@
 import logo from "./logo.svg";
 import "./App.css";
-import "~slick-carousel/slick/slick.css"; 
-import "~slick-carousel/slick/slick-theme.css";
-import Slider from "./Slider";
+import Sliders from "./Sliders";
 
-
-function App() {ddd
+function App() {
   return (
     <>
       <section className="theme-banner">
@@ -48,7 +45,9 @@ function App() {ddd
           </div>
         </div>
       </section>
-      <Slider />
+      <section>
+      <Sliders />
+      </section>
     </>
   );
 }

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 
-function Slider() {
+function Carousel() {
     const settings = {
         dots: true,
         infinite: true,
@@ -11,7 +11,7 @@ function Slider() {
       };
     return(
         <div>
-        <Slider {...settings}>
+        <Carousel {...settings}>
           <div className="slider-items">
             <div className="slider-item animate__animated animate__bounce">
               <h1>
@@ -63,9 +63,9 @@ function Slider() {
               </div>
             </div>
           </div>
-        </Slider>
+        </Carousel>
       </div>
     )
 }
 
-export default Slider
+export default Carousel
