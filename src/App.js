@@ -1,54 +1,26 @@
-import logo from "./logo.svg";
-import "./App.css";
-import Sliders from "./Sliders";
+import { ChakraProvider } from "@chakra-ui/react";
+import Header from "./components/Header";
+import LandingSection from "./components/LandingSection";
+import ProjectsSection from "./components/ProjectsSection";
+import ContactMeSection from "./components/ContactMeSection";
+import Footer from "./components/Footer";
+import { AlertProvider } from "./context/alertContext";
+import Alert from "./components/Alert";
 
 function App() {
   return (
-    <>
-      <section className="theme-banner">
-        <div className="container text-center">
-          <div className="theme_color_picker_container">
-            <h2>Themes</h2>
-            <form className="color-picker" action="">
-              <fieldset>
-                <legend className="visually-hidden">Pick a color scheme</legend>
-                <label htmlFor="light" className="visually-hidden">
-                  Light
-                </label>
-                <input type="radio" name="theme" id="light" defaultChecked="" />
-                <label htmlFor="pink" className="visually-hidden">
-                  Pink theme
-                </label>
-                <input type="radio" id="pink" name="theme" />
-                <label htmlFor="blue" className="visually-hidden">
-                  Blue theme
-                </label>
-                <input type="radio" id="blue" name="theme" />
-                <label htmlFor="green" className="visually-hidden">
-                  Green theme
-                </label>
-                <input type="radio" id="green" name="theme" />
-                <label htmlFor="dark" className="visually-hidden">
-                  Dark theme
-                </label>
-                <input type="radio" id="dark" name="theme" />
-              </fieldset>
-            </form>
-          </div>
-          <div className="spinner">
-            <div />
-            <div />
-            <div />
-            <div />
-            <div />
-            <div />
-          </div>
-        </div>
-      </section>
-      <section>
-      <Sliders />
-      </section>
-    </>
+    <ChakraProvider>
+      <AlertProvider>
+        <main>
+          <Header />
+          <LandingSection />
+          <ProjectsSection />
+          <ContactMeSection />
+          <Footer />
+          <Alert />
+        </main>
+      </AlertProvider>
+    </ChakraProvider>
   );
 }
 
