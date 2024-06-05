@@ -7,3 +7,8 @@
 :root {
   font-family: "Inter", sans-serif;
 }
+
+.custom-logo {
+  font-size: 60px;
+  line-height: 0  ;
+}
