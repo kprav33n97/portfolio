@@ -21,7 +21,7 @@ const Hero = () => {
               variants={container(0)}
               initial="hidden"
               animate="visible"
-              className="text-6xl font-thin tracking-tight lg:mb-16 lg:text-8xl"
+              className="text-5xl font-thin tracking-tight lg:mb-16 lg:text-8xl"
             >
               K Praveen Kumar
             </motion.h1>

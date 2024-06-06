@@ -3,69 +3,66 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate frontend developer with a knack for crafting robust and scalable web applications. With 3 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate developer with a knack for crafting visually stunning & highly functional web applications. With 3 years of hands-on experience, I have honed my skills in technologies like React and WordPress. I am skilled in translating design mockups and wireframes into highly efficient & responsive code. My goal is to leverage my expertise and stay up-to-date with the latest industry trends & technology to deliver cutting edge solutions to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 3 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated and versatile web developer with a passion for creating efficient and user-friendly web applications. With 3 years of professional hands-on experience, I have worked with a variety of technologies, including React, WordPress, MySQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy playing chess, reading books, exploring new technologies.`;
 
 export const EXPERIENCES = [
   {
-    year: "2022 - Present",
+    year: "May 2022 - Present",
     role: "Front-end Developer",
     company: "WP Event Manager",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
+    description: `Handling all UI Related tasks & successfully developed over 15 websites achieving positive feedback. Successfully developed and managed 26 premium wordpress themes with events listing functionality. Did debugging and resolving performance concerns.`,
     technologies: ["Javascript", "React.js", "CSS", "WordPress"],
   },
   {
-    year: "2021 - 2022",
+    year: "March 2021 - May 2022",
     role: "Web Developer",
     company: "7Hub Web Solutions",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
+    description: `Using WordPress CMS, I created custom themes to ensure high-quality websites for our users. Successfully developed and deployed over 30 websites achieving high client satisfaction. Implemented responsive designs and optimized frontend performance.`,
     technologies: ["HTML", "CSS", "PHP", "mySQL", "WordPress"],
   },
   {
-    year: "2019 - 2021",
+    year: "June 2020 - Jan 2021",
     role: "Web Developer Intern",
     company: "Phoenix Creative",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
+    description: `Developed and maintained web applications using JavaScript, HTML, CSS & WordPress. Collaborated with cross-functional teams to deliver high-quality websites on schedule. Optimzed performance of websites.`,
     technologies: ["HTML", "CSS", "JavaScipt", "PHP", "MySQL"],
-  },
-  {
-    year: "2015 - 2019",
-    role: "B.Tech Computer Science & Engineering",
-    company: "ITMVU",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Computer Science", "Engineering", "Programming", "Web Development"],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Modern Website for Startups",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A modern landing page for app startups with modern animations and responsive mobile design.",
+    technologies: ["HTML", "CSS", "React", "Tailwind CSS"],
+     liveLink: "https://kprav33n97.github.io/applanding/",
   },
   {
     title: "Task Management App",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "An application for managing tasks and projects, with features such as task creation, editing and deletionn",
+    technologies: ["HTML", "CSS", "React", "Tailwind CSS"],
+    liveLink: "https://kprav33n97.github.io/dailytasks/",
   },
   {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
+    title: "Little Lemon Restaurant Web App",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A fully functional restaurant website with features like product listing, table reservation, and user authentication.",
+    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    liveLink: "https://kprav33n97.github.io/little-lemon",
+  },
+  {
+    title: "Web Development Portfolio Website",
+    image: project3,
+    description:
+      "A portfolio website for web development business showcasing projects, skills, and contact information.",
+    technologies: ["HTML", "CSS", "JavaScipt"],
+    liveLink: "https://kprav33n97.github.io/designtocode/",
   },
 ];
 
