@@ -1,6 +1,7 @@
 {
   "name": "portfolio",
   "private": true,
+  "homepage": "https://kprav33n97.github.io/portfolio",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
