@@ -12,3 +12,7 @@
   font-size: 60px;
   line-height: 0  ;
 }
+
+.portfolio-logo {
+  cursor: pointer;
+}
