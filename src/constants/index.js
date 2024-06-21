@@ -15,21 +15,21 @@ export const EXPERIENCES = [
     role: "Front-end Developer",
     company: "WP Event Manager",
     description: `Handling all UI Related tasks & successfully developed over 15 websites achieving positive feedback. Successfully developed and managed 26 premium wordpress themes with events listing functionality. Did debugging and resolving performance concerns.`,
-    technologies: ["React.js", "Tailwind CSS", "HTML", "Javascript", "CSS", "WordPress"],
+    technologies: ["React.js", "Tailwind CSS", "WordPress"],
   },
   {
     year: "March 2021 - May 2022",
     role: "Web Developer",
     company: "7Hub Web Solutions",
     description: `Using WordPress CMS, I created custom themes to ensure high-quality websites for our users. Successfully developed and deployed over 30 websites achieving high client satisfaction. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "JavaScript", "PHP", "mySQL", "WordPress"],
+    technologies: ["HTML", "CSS", "JavaScript"],
   },
   {
     year: "June 2020 - Jan 2021",
     role: "Web Developer Intern",
     company: "Phoenix Creative",
     description: `Developed and maintained web applications using JavaScript, HTML, CSS & WordPress. Collaborated with cross-functional teams to deliver high-quality websites on schedule. Optimzed performance of websites.`,
-    technologies: ["HTML", "CSS", "JavaScipt", "PHP", "MySQL"],
+    technologies: ["HTML", "CSS", "JavaScipt"],
   },
 ];
 
