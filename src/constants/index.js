@@ -1,6 +1,5 @@
 import project2 from "../assets/projects/project-2.jpg";
 import dhiksha from "../assets/projects/dhiksha.png";
-import applanding from "../assets/projects/applanding.png";
 import businessWebsite from "../assets/projects/business-website.png";
 import littleLemon from "../assets/projects/little-lemon.png";
 import kp97 from "../assets/projects/web-agency.png";
@@ -49,14 +48,6 @@ export const PROJECTS = [
       "A modern business website created on react.js ",
     technologies: ["React.js","CSS"],
     liveLink: "https://kprav33n97.github.io/business-website/",
-  },
-  {
-    title: "Landing page for Startups",
-    image: applanding,
-    description:
-      "A modern landing page for app startups with modern animations and responsive mobile design.",
-    technologies: ["React", "Tailwind CSS", "CSS"],
-     liveLink: "https://kprav33n97.github.io/applanding/",
   },
   {
     title: "Task Management App",
