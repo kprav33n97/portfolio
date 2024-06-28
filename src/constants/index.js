@@ -27,7 +27,7 @@ export const EXPERIENCES = [
     year: "June 2020 - Jan 2021",
     role: "Web Developer Intern",
     company: "Phoenix Creative",
-    description: `Developed and maintained web applications using JavaScript, HTML, CSS & WordPress. Collaborated with cross-functional teams to deliver high-quality websites on schedule. Optimzed performance of websites.`,
+    description: `Developed and maintained web applications using JavaScript, HTML, CSS & WordPress. Collaborated with cross-functional teams to deliver high-quality websites on schedule. Optimized performance of websites.`,
     technologies: ["HTML", "CSS", "JavaScipt"],
   },
 ];
