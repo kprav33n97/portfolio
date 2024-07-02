@@ -52,7 +52,7 @@ const Projects = () => {
                   href={project.liveLink}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="mt-4 inline-block text-blue-500 hover:underline"
+                  className="mt-4 inline-block text-blue-500 underline"
                 >
                   Live Link
                 </a>
